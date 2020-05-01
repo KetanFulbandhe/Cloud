@@ -2,7 +2,7 @@
 A firewall is a network security system that monitors and controls incoming and outgoing network traffic 
 based on predetermined security rule.\
 It is kind of filter to incomming and outgoing request.
-## Type of Firewall.
+##  Security groups in Firewall.
 ### 1. Inbound firewall
 An inbound firewall protects your network from threats that originate from outside your network and attempt to infiltrate your network 
 inwardly.\
