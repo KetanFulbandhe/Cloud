@@ -7,7 +7,7 @@ First create the Amazon instance in your AWS Cloud, and log-in into it.
 
     gcc --version
 
-![Image](images/1st.png)
+![Image](images/1st.PNG)
 
 if it shows like the above image then you have to setup the things.
 
@@ -18,13 +18,13 @@ Go and hit this command on your terminal. here we are installing the **GCC** wit
 
     yum -y install gcc
 
-![Image](images/2nd.png)
+![Image](images/2nd.PNG
 
 *command to apply update*
 
     sudo yum update
 
-![Image](images/3rd.png)
+![Image](images/3rd.PNG)
 
 **Check again setup is install or not.**
 
@@ -32,7 +32,7 @@ Go and hit this command on your terminal. here we are installing the **GCC** wit
 
     gcc --version
 
-![Image](images/4th.png)
+![Image](images/4th.PNG)
 
 As might be seen from the output, the GCC version distributed by red hat 7 is 7.3.1-6 which is not the latest version of GCC.
 
@@ -42,7 +42,7 @@ You may also want to install gcc-c++. It will automatically include the C++ libr
 
     yum -y install gcc-c++
 
-![Image](images/5th.png)
+![Image](images/5th.PNG)
 
 ## Now we are all done and ready to implement our first ever CPP program on our AWS LINUX Instance.
 
@@ -57,12 +57,15 @@ int main()
         return 0;
 }
 ```
-![Image](images/6th.png)
+
+![Image](images/6th.PNG)
+
 # Step 3:- Compilation of CPP Program file.
 
 *Use this command to Compile the CPP code and list the containt of current directory to see if the **.out** File is created or not.*
 
     sudo g++ first.cpp
+    
 ![Image](images/7th.PNG)
 
 # Step 4:- Running the Compile code of CPP
@@ -72,6 +75,7 @@ int main()
     ./a.out
 
 After hiting this command you will get the output of the CPP Program.
+
 ![Image](images/8th.PNG)
 
 
