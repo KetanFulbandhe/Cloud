@@ -18,7 +18,8 @@ Go and hit this command on your terminal. here we are installing the **GCC** wit
 
     yum -y install gcc
 
-![Image](images/2nd.PNG
+![Image](images/2nd.PNG)
+
 
 *command to apply update*
 
