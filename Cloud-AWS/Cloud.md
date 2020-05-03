@@ -1,5 +1,5 @@
 # What is cloud ?
-**1. Compute resoures as rent.**\
+**1. Compute resoures as rent.**
 
 **2. Rent is "pay as you go."**
 
