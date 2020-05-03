@@ -44,7 +44,8 @@ From "Service" Drop-down select or Search "S3 bucket" and click on "Create Bucke
 
 ## Step 3:-
 ```
-On Name and Region page type bucket name and keep in mind that  it must be unique across all existing buckets in Amazon AWS.
+On Name and Region page type bucket name and keep in mind that it must be unique across all existing buckets
+in Amazon AWS.
 ```
 ![Image](Images/2.png)
 
@@ -52,24 +53,33 @@ On Name and Region page type bucket name and keep in mind that  it must be uniqu
 ```
 Now, you able to see the bucket you have just created, click on it
 ```
-![Image](Images/3.png)
+![Image](Images/3.PNG)
 
 ## Step 5:-
 ```
-Now you are all set to upload a file/folder click on "upload" button and fetch your file/folder you want to insert.
+Now you are all set to upload a file/folder click on "upload" button and fetch your file/folder you want
+to insert.
 ```
-![Image](Images/4.png)
+
+![Image](Images/4.PNG)
+
 ```
 After Upload 
 ```
-![Image](Images/5.png)
+
+![Image](Images/5.PNG)
 
 ```
-click on the "Add files" button and brows the files you want to upload and click on "Upload" (at left down corner of the windows)
+click on the "Add files" button and brows the files you want to upload and click on "Upload" 
+(at left down corner of the windows)
 ```
+
 ## Step 6:-
+
 ```
-On successfullly uploading the files/folder if you want to host/access the files just click on check-box infront of the file and click on action drop-down and select "Make Public". copy the URL ans share URL to access the Files/Folder.
+On successfullly uploading the files/folder if you want to host/access the files just click on check-box in 
+front of the file and click on action drop-down and select "Make Public". copy the URL ans share URL to access 
+the Files/Folder.
 
 1. On "Properties" tab, we configure properties for bucket.
 
