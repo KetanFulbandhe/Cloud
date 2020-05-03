@@ -9,7 +9,8 @@ AWS provide us a service where we can create our own machine with the needed con
 
 ## step 1:- (Choose AMI)
 ```
-Log-in into your AWS console and click on the "Services" drop-down, select/search "EC2 (Virtual Server In The Cloud)" click on it.
+Log-in into your AWS console and click on the "Services" drop-down, select/search 
+"EC2 (Virtual Server In The Cloud)" click on it.
 ```
 
 ![image](images/1.png)
@@ -20,13 +21,16 @@ According to required configuration select the Configuration type.
 
 here, I'am selecting the t2.micro (1 CPU, 1 GB RAM).
 ```
+
 ![image](images/2.png)
 
 ## step 3:- (Configure Instance)
 ```
 Leave This step as default. and go to "Next Step".
 ```
-![image](images/LL.png)
+
+![image](images/LL.PNG)
+
 ## step 4:- (Add Storage)
 ```
 According to the requirement add the Volume (Storage) in this step.
@@ -39,13 +43,16 @@ here, I'am adding 30 GB Volume to my EC2 Instance.
 ```
 Here in this Step we are going to add the tag (Name) to our EC2 Instance.
 
-Click On "Add Tag" and specifi the name. Give "Key" as "Name" here "N" must be capital. and in value field type the desired name you want to give to you machine.
+Click On "Add Tag" and specifi the name. Give "Key" as "Name" here "N" must be capital. 
+and in value field type the desired name you want to give to you machine.
 ```
-![image](images/5.png)
+
+![image](images/5.PNG)
 
 ## step 6:- (Configure Security Group)
 ```
-here, we connect to EC2 server through remote protocols such as SSH ,etc.. so, we can add rules to allow specific traffic to reach your instance.
+here, we connect to EC2 server through remote protocols such as SSH ,etc.. 
+so, we can add rules to allow specific traffic to reach your instance.
 ```
 
 1. **Check the radio button of "create a new security group>**
@@ -60,6 +67,8 @@ here, we connect to EC2 server through remote protocols such as SSH ,etc.. so, w
 ```
 Here, we will get our instance ready.
 ```
+![image](images/7.PNG)
+
 ### Start/Stop of instance.
 
 1. **Check the check-box of instance and hit the "Action"  drop-down**
