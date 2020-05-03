@@ -7,7 +7,7 @@ First create the Amazon instance in your AWS Cloud, and log-in into it.
 
     gcc --version
 
-![Image](https://demo-ketan-20.s3.amazonaws.com/assignment_pic/1st.PNG)
+![Image](images/1st.png)
 
 if it shows like the above image then you have to setup the things.
 
@@ -18,13 +18,13 @@ Go and hit this command on your terminal. here we are installing the **GCC** wit
 
     yum -y install gcc
 
-![Image](https://demo-ketan-20.s3.amazonaws.com/assignment_pic/2nd.PNG)
+![Image](images/2nd.png)
 
 *command to apply update*
 
     sudo yum update
 
-![Image](https://demo-ketan-20.s3.amazonaws.com/assignment_pic/3rd.PNG)
+![Image](images/3rd.png)
 
 **Check again setup is install or not.**
 
@@ -32,7 +32,7 @@ Go and hit this command on your terminal. here we are installing the **GCC** wit
 
     gcc --version
 
-![Image](https://demo-ketan-20.s3.amazonaws.com/assignment_pic/4th.PNG)
+![Image](images/4th.png)
 
 As might be seen from the output, the GCC version distributed by red hat 7 is 7.3.1-6 which is not the latest version of GCC.
 
@@ -42,7 +42,7 @@ You may also want to install gcc-c++. It will automatically include the C++ libr
 
     yum -y install gcc-c++
 
-![Image](https://demo-ketan-20.s3.amazonaws.com/assignment_pic/5th.PNG)
+![Image](images/5th.png)
 
 ## Now we are all done and ready to implement our first ever CPP program on our AWS LINUX Instance.
 
@@ -57,13 +57,13 @@ int main()
         return 0;
 }
 ```
-![Image](https://demo-ketan-20.s3.amazonaws.com/assignment_pic/6th.PNG)
+![Image](images/6th.png)
 # Step 3:- Compilation of CPP Program file.
 
 *Use this command to Compile the CPP code and list the containt of current directory to see if the **.out** File is created or not.*
 
     sudo g++ first.cpp
-![Image](https://demo-ketan-20.s3.amazonaws.com/assignment_pic/7th.PNG)
+![Image](images/7th.PNG)
 
 # Step 4:- Running the Compile code of CPP
 
@@ -72,7 +72,7 @@ int main()
     ./a.out
 
 After hiting this command you will get the output of the CPP Program.
-![Image](https://demo-ketan-20.s3.amazonaws.com/assignment_pic/8th.PNG)
+![Image](images/8th.PNG)
 
 
 **You are Done with running and setting-up the enviroment of CPP in AWS Cloud Instance for Linux amazon ubuntu OS**
