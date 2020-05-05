@@ -141,7 +141,7 @@ hit this command in terminal.
     2. kill -9 <PID> 
 ```
 
-![image](images/STOP.PNG)
+![image](images/stop.PNG)
 
 As we can see the cpu is getting back to normal state, and spike getting travel to below threshold line (Red line).
 
